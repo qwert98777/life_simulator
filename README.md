@@ -9,11 +9,14 @@
 
 ## Структура проекта
 life_simulator/
-├── main.py       # точка входа
-├── ecosystem.py  # основная логика симуляции
-├── organism.py   # классы организмов
-├── .gitignore    # исключения для Git
-└── README.md     # описание проекта
+life_simulator/
+├── main.py          # точка входа 
+├── ecosystem.py     # основная логика 
+├── organism.py      # классы организмов 
+├── utils.py         # вспомогательные функции 
+├── README.md        # описание проекта 
+├── .gitignore       # исключения для Git 
+└── requirements.txt # зависимости 
 ## Роли в команде
 
 - **Архитектор** — qwert98777
