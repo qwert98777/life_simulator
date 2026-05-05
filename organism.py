@@ -1,6 +1,6 @@
 class Organism:
     """Базовый класс организма."""
-    def init(self, name: str, energy: float) -> None:
+    def __init__(self, name: str, energy: float) -> None:
         self.name = name
         self.energy = energy
 
