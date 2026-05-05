@@ -1,4 +1,4 @@
-import Organism
+from organism import Organism
 from config_loader import Configuration
 
 class Ecosystem:
