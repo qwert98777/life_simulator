@@ -1,5 +1,7 @@
 
 
+"""Модуль модели данных - класс организма."""
+
 class Organism:
     """Базовый класс организма с жизненной логикой."""
     
@@ -23,4 +25,4 @@ class Organism:
         return self.energy > 0
 
     def __str__(self) -> str:
-        return f"{self.name} (энергия: {self.energy:.1f}, хищник: {self.is_predator})"х
+        return f"{self.name} (энергия: {self.energy:.1f}, хищник: {self.is_predator})"
