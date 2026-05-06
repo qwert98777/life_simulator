@@ -15,7 +15,7 @@ class Organism:
         """Метод получения урона."""
         self.energy -= damage
         print(f"{self.name} получил {damage:.1f} урона.")
-
+        
     def is_alive(self) -> bool:
         """Проверка состояния жизни."""
         return self.energy > 0
