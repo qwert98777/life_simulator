@@ -16,6 +16,6 @@ class Ecosystem:
         """Симуляция дня, проверка жив ли организм."""
         for org in self.organisms:
             if org.is_alive():
-                org.eat(self.config.get("food_energy", 10))
+                org.eat(10)
             else:
                 print(f"{org.name} мёртв.")
