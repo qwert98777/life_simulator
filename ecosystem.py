@@ -7,7 +7,6 @@ class Ecosystem:
     def __init__(self, config_path: str = "config.json") -> None:
         self.config = load_config(config_path)
         self.organisms = []
-
     def add_organism(self, organism: Organism) -> None:
         """Добавление организма в экосистему."""
         self.organisms.append(organism)
