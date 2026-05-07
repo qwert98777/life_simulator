@@ -1,8 +1,7 @@
 from organism import Organism
-from predator import Predator
 
 class Ecosystem:
-    """Класс, симулирующий экосистему."""
+    """Класс экосистемы."""
 
     def __init__(self) -> None:
         self.organisms = []
@@ -12,7 +11,7 @@ class Ecosystem:
         self.organisms.append(organism)
 
     def simulate_day(self) -> None:
-        """Симуляция одного дня."""
+        """Симуляция дня."""
         for org in self.organisms:
             if org.is_alive():
                 org.eat(10)
